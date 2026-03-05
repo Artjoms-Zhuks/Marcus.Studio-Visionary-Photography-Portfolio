@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column !important;
+    text-align: center;
+    padding: 50px 5% !important;
+  }
+
+  .about-image img {
+    width: 100% !important;
+    max-width: 300px;
+  }
+
+  .about-text h2 {
+    font-size: 32px !important;
+  }
+}
