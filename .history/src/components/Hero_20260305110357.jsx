@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <section id="home" className="hero">
             <video autoPlay loop muted className="hero-video">
-                <source src={`${import.meta.env.BASE_URL}${content.hero.videoUrl}`} type="video/mp4" />
+                <source src={content.hero.videoUrl} type="video/mp4" />
             </video>
             <div className="hero-overlay">
                 <h1>{content.hero.title}</h1>
